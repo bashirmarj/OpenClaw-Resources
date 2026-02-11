@@ -1,0 +1,2140 @@
+{
+  "processingTime": 0.11392469999987043,
+  "sdk": "Analysis Situs / CNC Feature Recognition",
+  "sdkVersion": "2025.1dev",
+  "sdkHash": "30a3da5a9",
+  "file": "C:/Users/BASH/Desktop/Vectis/Costing Center/Part samples/FreeCAD_Beginner_171-Body.step",
+  "unitScaleFactor": 1,
+  "originalUnitString": "",
+  "parts": [
+    {
+      "id": "0:1:1:1",
+      "name": "SOLID",
+      "numOccurrences": 1,
+      "bodies": [
+        {
+          "processingTime": 0.10980540000014116,
+          "type": "CNC_MILLING",
+          "summary": {
+            "numVertices": 80,
+            "numEdges": 119,
+            "numFaces": 41,
+            "num3dMilledFaces": 0,
+            "numSolids": 1,
+            "bboxDx": 159.5,
+            "bboxDy": 64,
+            "bboxDz": 64.5,
+            "totalEdgeLength": 2983.2663537906196,
+            "totalFaceArea": 32717.265835130293,
+            "total3dFaceArea": 0,
+            "totalVolume": 160248.02573260872,
+            "faceAreas": [124.53948372029377, 157.52774365037726, 226.19467105846513, 226.19467105846513, 256, 256, 260, 260, 287.99999999999989, 294.98557044824094, 301.5928947446202, 301.5928947446202, 362.03867196751236, 362.03867196751236, 377.77651659417268, 384, 384, 395.86283310668796, 480, 480.00000000000006, 483.72566611769184, 483.72566611769201, 492.68327111724057, 576, 600, 614.84432111593969, 614.84432111598926, 702.05792733458679, 704.50215256751187, 704.50215256751187, 732, 741.61547289769601, 876.13535556511999, 1017.8760197630932, 1335.4513322353837, 1335.4513322353837, 2294.2514677648924, 2294.2514677648928, 2474.4341884028199, 3314.2151006797394, 4146.3539967061506]
+          },
+          "unrecognized": [],
+          "features": {
+            "shafts": [
+              {
+                "faceIds": [1],
+                "diameter": 41,
+                "length": 38,
+                "axis": [0, 1, -2.22045e-16]
+              }
+            ],
+            "holes": [
+              {
+                "faceIds": [9],
+                "fullyRecognized": true,
+                "totalDepth": 6.8252056688229992,
+                "bores": [
+                  {
+                    "faceIds": [9],
+                    "axis": [0, -2.46519e-31, -1],
+                    "diameter": 6,
+                    "depth": 6.8252056688229992
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [26],
+                "fullyRecognized": true,
+                "totalDepth": 38,
+                "bores": [
+                  {
+                    "faceIds": [26],
+                    "axis": [0, -1, 2.22045e-16],
+                    "diameter": 28,
+                    "depth": 38
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [35],
+                "fullyRecognized": true,
+                "totalDepth": 16,
+                "bores": [
+                  {
+                    "faceIds": [35],
+                    "axis": [0, 1.47911e-31, 1],
+                    "diameter": 6,
+                    "depth": 16
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [36, 38, 41],
+                "fullyRecognized": true,
+                "totalDepth": 29.08392092376512,
+                "bores": [
+                  {
+                    "faceIds": [36],
+                    "axis": [0, 4.93038e-32, 1],
+                    "diameter": 12,
+                    "depth": 27
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                  {
+                    "faceIds": [38, 41],
+                    "bores": [38],
+                    "axis": [0, 9.86076e-32, 1],
+                    "diameter": 25,
+                    "depth": 2.0839209237651208
+                  }
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [37],
+                "fullyRecognized": true,
+                "totalDepth": 16,
+                "bores": [
+                  {
+                    "faceIds": [37],
+                    "axis": [0, 9.86076e-32, 1],
+                    "diameter": 6,
+                    "depth": 16
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [39],
+                "fullyRecognized": true,
+                "totalDepth": 12,
+                "bores": [
+                  {
+                    "faceIds": [39],
+                    "axis": [0, -1, 2.22045e-16],
+                    "diameter": 6,
+                    "depth": 12
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              },
+              {
+                "faceIds": [40],
+                "fullyRecognized": true,
+                "totalDepth": 12,
+                "bores": [
+                  {
+                    "faceIds": [40],
+                    "axis": [0, -1, 2.22045e-16],
+                    "diameter": 6,
+                    "depth": 12
+                  }
+                ],
+                "bottom": null,
+                "countersinks": [
+                ],
+                "counterbores": [
+                ],
+                "threads": [
+                ]
+              }
+            ],
+            "threads": [
+            ],
+            "filletChains": [
+            ],
+            "chamferChains": [
+            ],
+            "prismaticMilling": [
+              {
+                "faceIds": [1, 2, 4, 10, 12, 14, 15, 22, 23],
+                "configurations": [
+                  {
+                    "axis": [-0, -1, 5.42342e-31],
+                    "depth": 38,
+                    "clearance": null,
+                    "faceIds": [1, 4, 22, 23],
+                    "walls": [
+                      {
+                        "faceId": 1,
+                        "area": 2474.4341884028199,
+                        "contourLength": 128.80529879718151,
+                        "maxHeight": 38,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                        ]
+                      },
+                      {
+                        "faceId": 22,
+                        "area": 256,
+                        "contourLength": 16,
+                        "maxHeight": 16,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                          [0, -1, 3.45127e-31]
+                        ]
+                      },
+                      {
+                        "faceId": 23,
+                        "area": 483.72566611769201,
+                        "contourLength": 40,
+                        "maxHeight": 16,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                          [0, -1, 3.45127e-31]
+                        ]
+                      }
+                    ],
+                    "bottomFaces": [
+                      {
+                        "faceId": 4,
+                        "area": 2294.2514677648928,
+                        "maxLength": 92.000000000002217,
+                        "maxWidth": 48,
+                        "outerContourLength": 327.2942777880051,
+                        "maxConcaveCurvature": null,
+                        "walls": [1, 22, 23]
+                      }
+                    ],
+                    "filletChains": [
+                    ],
+                    "outline": {
+                      "processingTime": 0,
+                      "contours": [
+                      ]
+                    }
+                  },
+                  {
+                    "axis": [0, 1, -5.42342e-31],
+                    "depth": 38,
+                    "clearance": null,
+                    "faceIds": [1, 2, 14, 15],
+                    "walls": [
+                      {
+                        "faceId": 1,
+                        "area": 2474.4341884028199,
+                        "contourLength": 128.80529879718151,
+                        "maxHeight": 38,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                        ]
+                      },
+                      {
+                        "faceId": 14,
+                        "area": 256,
+                        "contourLength": 16,
+                        "maxHeight": 16,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                          [-0, 1, -2.95823e-31]
+                        ]
+                      },
+                      {
+                        "faceId": 15,
+                        "area": 483.72566611769184,
+                        "contourLength": 40,
+                        "maxHeight": 16,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                          [-0, 1, -3.9443e-31]
+                        ]
+                      }
+                    ],
+                    "bottomFaces": [
+                      {
+                        "faceId": 2,
+                        "area": 2294.2514677648924,
+                        "maxLength": 92.000000000002217,
+                        "maxWidth": 48,
+                        "outerContourLength": 327.2942777880051,
+                        "maxConcaveCurvature": null,
+                        "walls": [1, 14, 15]
+                      }
+                    ],
+                    "filletChains": [
+                    ],
+                    "outline": {
+                      "processingTime": 0,
+                      "contours": [
+                      ]
+                    }
+                  },
+                  {
+                    "axis": [0, 1, -3.30131e-16],
+                    "depth": 38,
+                    "clearance": null,
+                    "faceIds": [1, 12],
+                    "walls": [
+                      {
+                        "faceId": 1,
+                        "area": 2474.4341884028199,
+                        "contourLength": 128.80529879718151,
+                        "maxHeight": 38,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                        ]
+                      }
+                    ],
+                    "bottomFaces": [
+                      {
+                        "faceId": 12,
+                        "area": 614.84432111598926,
+                        "maxLength": 50.5,
+                        "maxWidth": 34.9706510504843,
+                        "outerContourLength": 161.84738217600227,
+                        "maxConcaveCurvature": null,
+                        "walls": [1]
+                      }
+                    ],
+                    "filletChains": [
+                    ],
+                    "outline": {
+                      "processingTime": 0,
+                      "contours": [
+                      ]
+                    }
+                  },
+                  {
+                    "axis": [0, -1, 2.56075e-16],
+                    "depth": 38,
+                    "clearance": null,
+                    "faceIds": [1, 10],
+                    "walls": [
+                      {
+                        "faceId": 1,
+                        "area": 2474.4341884028199,
+                        "contourLength": 128.80529879718151,
+                        "maxHeight": 38,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": null,
+                        "accessibleSideMillingAxes": [
+                        ]
+                      }
+                    ],
+                    "bottomFaces": [
+                      {
+                        "faceId": 10,
+                        "area": 614.84432111593969,
+                        "maxLength": 50.5,
+                        "maxWidth": 34.970651050484307,
+                        "outerContourLength": 161.84738217600227,
+                        "maxConcaveCurvature": null,
+                        "walls": [1]
+                      }
+                    ],
+                    "filletChains": [
+                    ],
+                    "outline": {
+                      "processingTime": 0,
+                      "contours": [
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "faceIds": [6, 20, 21],
+                "configurations": [
+                  {
+                    "axis": [-0, 2.22045e-16, 1],
+                    "depth": 9.0000000000000036,
+                    "clearance": 43.651158590685441,
+                    "faceIds": [6, 20, 21],
+                    "walls": [
+                      {
+                        "faceId": 6,
+                        "area": 287.99999999999989,
+                        "contourLength": 32,
+                        "maxHeight": 9.0000000000000036,
+                        "maxConcaveCurvature": null,
+                        "oppositeFaceDistance": 43.651158590685441,
+                        "accessibleSideMillingAxes": [
+                          [0, 1, -2.22045e-16],
+                          [-0, 2.22045e-16, 1],
+                          [-0, -1, 2.22045e-16]
+                        ]
+                      }
+                    ],
+                    "bottomFaces": [
+                      {
+                        "faceId": 20,
+                        "area": 492.68327111724057,
+                        "maxLength": 32,
+                        "maxWidth": 30.530344885397128,
+                        "outerContourLength": 183.73465109989095,
+                        "maxConcaveCurvature": null,
+                        "walls": [6]
+                      }
+                    ],
+                    "filletChains": [
+                      {
+                        "faceIds": [21],
+                        "totalLength": 21.550510257216999,
+                        "radius": 6,
+                        "convex": false,
+                        "contourLength": 9.4247779607693847
+                      }
+                    ],
+                    "outline": {
+                      "processingTime": 0,
+                      "contours": [
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "shoulders": [
+              {
+                "primary": {
+                  "normalAxis": [0, 1, -4.93038e-31],
+                  "faces": [
+                    {
+                      "faceId": 32,
+                      "area": 1335.4513322353837,
+                      "maxLength": 48,
+                      "maxWidth": 29.000000000000014
+                    }
+                  ]
+                },
+                "secondary": {
+                  "normalAxis": [1, -0, -0],
+                  "faces": [
+                    {
+                      "faceId": 17,
+                      "area": 480,
+                      "maxLength": 48,
+                      "maxWidth": 10.000000000000011
+                    }
+                  ]
+                }
+              },
+              {
+                "primary": {
+                  "normalAxis": [-0, -1, 4.93038e-31],
+                  "faces": [
+                    {
+                      "faceId": 33,
+                      "area": 1335.4513322353837,
+                      "maxLength": 48,
+                      "maxWidth": 29.000000000000014
+                    }
+                  ]
+                },
+                "secondary": {
+                  "normalAxis": [1, -0, -0],
+                  "faces": [
+                    {
+                      "faceId": 25,
+                      "area": 480.00000000000006,
+                      "maxLength": 48.000000000000007,
+                      "maxWidth": 10.000000000000007
+                    }
+                  ]
+                }
+              },
+              {
+                "primary": {
+                  "normalAxis": [-0, 2.22045e-16, 1],
+                  "faces": [
+                    {
+                      "faceId": 28,
+                      "area": 600,
+                      "maxLength": 20,
+                      "maxWidth": 30
+                    }
+                  ]
+                },
+                "secondary": {
+                  "normalAxis": [-1, -0, -0],
+                  "faces": [
+                    {
+                      "faceId": 27,
+                      "area": 260,
+                      "maxLength": 20.000000000000004,
+                      "maxWidth": 13.000000000000004
+                    }
+                  ]
+                }
+              }
+            ],
+            "freeFlat": [
+              {
+                "faceId": 5,
+                "isChamfer": false,
+                "normalAxis": [-0, -1, 5.91646e-31],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, 5.91646e-31, 1],
+                  [1, -0, 0],
+                  [-0, -5.91646e-31, -1],
+                  [-1, 0, -0]
+                ],
+                "area": 704.50215256751187,
+                "outerContourArea": 1320.186911020462,
+                "outerContourLength": 128.80529879718151,
+                "uAxis": [0, 0, 1],
+                "vAxis": [1, 0, 0],
+                "uLength": 41,
+                "vLength": 41
+              },
+              {
+                "faceId": 7,
+                "isChamfer": false,
+                "normalAxis": [0, 1, -5.91646e-31],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, 5.91646e-31, 1],
+                  [1, -0, 0],
+                  [-0, -5.91646e-31, -1],
+                  [-1, 0, -0]
+                ],
+                "area": 704.50215256751187,
+                "outerContourArea": 1320.1869110204607,
+                "outerContourLength": 128.80529879718151,
+                "uAxis": [0, 0, 1],
+                "vAxis": [1, 0, 0],
+                "uLength": 41,
+                "vLength": 41
+              },
+              {
+                "faceId": 8,
+                "isChamfer": false,
+                "normalAxis": [-0, 2.22045e-16, 1],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [-1, -0, 0],
+                  [-0, 1, -2.22045e-16],
+                  [1, 0, -0],
+                  [0, -1, 2.22045e-16]
+                ],
+                "area": 395.86283310668796,
+                "outerContourArea": 395.86301349365226,
+                "outerContourLength": 84.424777960769376,
+                "uAxis": [-1, 0, 0],
+                "vAxis": [0, 1, -1.77636e-16],
+                "uLength": 20.5,
+                "vLength": 20
+              },
+              {
+                "faceId": 13,
+                "isChamfer": false,
+                "normalAxis": [0, -9.00143e-17, -1],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, 1, -9.00143e-17],
+                  [1, 0, 0],
+                  [-0, -1, 9.00143e-17],
+                  [-1, -0, -0]
+                ],
+                "area": 4146.3539967061506,
+                "outerContourArea": 4316,
+                "outerContourLength": 351.25483399593907,
+                "uAxis": [0, 1, 0],
+                "vAxis": [1, 0, 0],
+                "uLength": 64,
+                "vLength": 121
+              },
+              {
+                "faceId": 18,
+                "isChamfer": false,
+                "normalAxis": [0, 2.23167e-16, 1],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, -1, 2.23167e-16],
+                  [1, 0, -0],
+                  [-0, 1, -2.23167e-16]
+                ],
+                "area": 732,
+                "outerContourArea": 732,
+                "outerContourLength": 146,
+                "uAxis": [0, -1, 2.22045e-16],
+                "vAxis": [1, 0, 0],
+                "uLength": 32,
+                "vLength": 41
+              },
+              {
+                "faceId": 29,
+                "isChamfer": false,
+                "normalAxis": [-1, -0, -0],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, -2.22045e-16, -1],
+                  [0, 1, -2.22045e-16],
+                  [-0, 2.22045e-16, 1],
+                  [-0, -1, 2.22045e-16]
+                ],
+                "area": 260,
+                "outerContourArea": 260,
+                "outerContourLength": 66,
+                "uAxis": [0, -2.73286e-16, -1],
+                "vAxis": [0, 1, -2.22045e-16],
+                "uLength": 13.000000000000004,
+                "vLength": 20.000000000000004
+              },
+              {
+                "faceId": 30,
+                "isChamfer": false,
+                "normalAxis": [-0, 1, -2.95823e-31],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [-1, 0, 0],
+                  [-0, -2.95823e-31, -1],
+                  [1, -0, -0],
+                  [0, 2.95823e-31, 1]
+                ],
+                "area": 384,
+                "outerContourArea": 384,
+                "outerContourLength": 80,
+                "uAxis": [-1, 0, 0],
+                "vAxis": [0, 0, -1],
+                "uLength": 24,
+                "vLength": 16
+              },
+              {
+                "faceId": 31,
+                "isChamfer": false,
+                "normalAxis": [-0, -1, 3.45127e-31],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [1, 0, 0],
+                  [0, -3.45127e-31, -1],
+                  [-1, -0, -0],
+                  [-0, 3.45127e-31, 1]
+                ],
+                "area": 384,
+                "outerContourArea": 384,
+                "outerContourLength": 80,
+                "uAxis": [1, 0, 0],
+                "vAxis": [0, 0, -1],
+                "uLength": 24,
+                "vLength": 16
+              },
+              {
+                "faceId": 34,
+                "isChamfer": false,
+                "normalAxis": [1, -0, -0],
+                "endMillingAccessible": true,
+                "accessibleSideMillingAxes": [
+                  [0, 2.22045e-16, 1],
+                  [0, 1, -2.22045e-16],
+                  [-0, -2.22045e-16, -1],
+                  [-0, -1, 2.22045e-16]
+                ],
+                "area": 576,
+                "outerContourArea": 576,
+                "outerContourLength": 120,
+                "uAxis": [0, 2.22045e-16, 1],
+                "vAxis": [0, 1, 0],
+                "uLength": 48,
+                "vLength": 12.000000000000011
+              }
+            ],
+            "sideMilling": [
+            ],
+            "endMilling": [
+              {
+                "faceId": 3,
+                "area": 876.13535556511999,
+                "maxLength": 32.000000000000007,
+                "maxWidth": 27.379229861410007,
+                "outerContourLength": 118.75845972281999
+              },
+              {
+                "faceId": 11,
+                "area": 741.61547289769601,
+                "maxLength": 37.080773644884808,
+                "maxWidth": 20,
+                "outerContourLength": 114.1615472897696
+              },
+              {
+                "faceId": 16,
+                "area": 362.03867196751236,
+                "maxLength": 22.627416997969522,
+                "maxWidth": 16,
+                "outerContourLength": 77.254833995939038
+              },
+              {
+                "faceId": 19,
+                "area": 702.05792733458679,
+                "maxLength": 32,
+                "maxWidth": 21.939310229205841,
+                "outerContourLength": 107.87862045841166
+              },
+              {
+                "faceId": 24,
+                "area": 362.03867196751236,
+                "maxLength": 22.627416997969522,
+                "maxWidth": 16,
+                "outerContourLength": 77.254833995939038
+              }
+            ],
+            "milledFaces3Axes": [
+              {
+                "faceId": 1,
+                "surfaceType": "cylinder",
+                "area": 2474.4341884028199,
+                "totalEdgeLength": 557.62256129713819,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": 7.9275027250780274,
+                "millingAxes": [
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [35.73, 24.59, 35.73, 47.01, 26.89, 24.37, 47.01, 19.40, 28.33, 40.50, 18.78, 21.17, 26.18, 25.33, 25.12, 34.21, 25.33, null, 34.21, null, null, null, null, 9.69, null, 7.93, null, 9.69, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 47.40, 51.55, 45.74, 44.17, 43.18, 38.92, 27.56, 31.74, 44.17, null, null],
+                "pointDepths": [15.00, 14.00, 49.00, 15.00, 49.00, 14.00, 49.00, 14.00, 49.00, 14.00, 49.00, 14.00, 49.00, 15.00, 49.00, 15.00, 49.00, 15.00, 49.00, 15.00, 49.00, 15.00, 49.00, 17.00, 49.00, 35.33, 26.67, 47.00, 19.00, 16.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 45.00, 48.00, 19.00, 16.00, 19.00, 45.00, 48.00, 16.00, 19.00, 45.00, 48.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 19.00, 16.00, 48.00, 45.00, 16.00, 26.70, 21.41, 48.00, 23.89, 37.31, 25.11, 18.98, 39.42, 48.00, 42.59, 32.00, 44.89, 25.67, 38.33, 38.33, 25.67, 38.33, 25.67, 38.33, 25.67, 25.67, 38.33, 14.00, 38.33, 25.67, 25.67, 37.33, 50.00, 19.00, 45.00]
+              },
+              {
+                "faceId": 2,
+                "surfaceType": "plane",
+                "area": 2294.2514677648924,
+                "totalEdgeLength": 327.2942777880051,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 1, -5.42342e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 5.42342e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -5.42342e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00]
+              },
+              {
+                "faceId": 3,
+                "surfaceType": "plane",
+                "area": 876.13535556511999,
+                "totalEdgeLength": 118.75845972281999,
+                "maxConcaveCurvature": null,
+                "localDepth": 27.379229861410007,
+                "localLength": 32,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.22045e-16, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [38.50, 38.50]
+              },
+              {
+                "faceId": 4,
+                "surfaceType": "plane",
+                "area": 2294.2514677648928,
+                "totalEdgeLength": 327.2942777880051,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, -1, 5.42342e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 5.42342e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -5.42342e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00, 16.00]
+              },
+              {
+                "faceId": 5,
+                "surfaceType": "plane",
+                "area": 704.50215256751187,
+                "totalEdgeLength": 216.76989309769567,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, -1, 5.91646e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 5.91646e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -5.91646e-31, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00]
+              },
+              {
+                "faceId": 6,
+                "surfaceType": "plane",
+                "area": 287.99999999999989,
+                "totalEdgeLength": 82,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": 41.726497308103689,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [1, 0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.22045e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [43.46, 41.73],
+                "pointDepths": [23.50, 26.50]
+              },
+              {
+                "faceId": 7,
+                "surfaceType": "plane",
+                "area": 704.50215256751187,
+                "totalEdgeLength": 216.76989309769567,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 1, -5.91646e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 5.91646e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -5.91646e-31, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00, 13.00]
+              },
+              {
+                "faceId": 8,
+                "surfaceType": "plane",
+                "area": 395.86283310668796,
+                "totalEdgeLength": 84.424777960769376,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null],
+                "pointDepths": [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+              },
+              {
+                "faceId": 10,
+                "surfaceType": "plane",
+                "area": 614.84432111593969,
+                "totalEdgeLength": 161.84738217600227,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, -1, 2.56075e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 2.56075e-16, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, 0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -2.56075e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00]
+              },
+              {
+                "faceId": 11,
+                "surfaceType": "plane",
+                "area": 741.61547289769601,
+                "totalEdgeLength": 114.1615472897696,
+                "maxConcaveCurvature": null,
+                "localDepth": 37.0807736448848,
+                "localLength": 20,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0.241922, -2.15449e-16, -0.970296],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0.970296, -5.37175e-17, -0.241922],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-7.41837e-29, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0.970296, 5.37175e-17, 0.241922],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [7.41837e-29, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [36.60, 33.52]
+              },
+              {
+                "faceId": 12,
+                "surfaceType": "plane",
+                "area": 614.84432111598926,
+                "totalEdgeLength": 161.84738217600227,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 1, -3.30131e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -3.30131e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 3.30131e-16, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00, 22.00]
+              },
+              {
+                "faceId": 13,
+                "surfaceType": "plane",
+                "area": 4146.3539967061506,
+                "totalEdgeLength": 426.65305768209407,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, -9.00143e-17, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -9.00143e-17],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 9.00143e-17],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+              },
+              {
+                "faceId": 14,
+                "surfaceType": "plane",
+                "area": 256,
+                "totalEdgeLength": 64,
+                "maxConcaveCurvature": null,
+                "localDepth": 16,
+                "localLength": 16,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 2.95823e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.95823e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -2.95823e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.95823e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [76.50, 76.50]
+              },
+              {
+                "faceId": 15,
+                "surfaceType": "plane",
+                "area": 483.72566611769184,
+                "totalEdgeLength": 121.47697291950828,
+                "maxConcaveCurvature": null,
+                "localDepth": 16,
+                "localLength": 28.875805665989841,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 3.9443e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, 0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 3.9443e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -3.9443e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null],
+                "pointDepths": [48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50]
+              },
+              {
+                "faceId": 16,
+                "surfaceType": "plane",
+                "area": 362.03867196751236,
+                "totalEdgeLength": 77.254833995939038,
+                "maxConcaveCurvature": null,
+                "localDepth": 22.627416997969522,
+                "localLength": 16,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0.707107, 0.707107, -1.98967e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0.707107, 0.707107, -1.98967e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.81382e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0.707107, -0.707107, 1.98967e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.81382e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [15.08, 7.54]
+              },
+              {
+                "faceId": 17,
+                "surfaceType": "plane",
+                "area": 480,
+                "totalEdgeLength": 116,
+                "maxConcaveCurvature": null,
+                "localDepth": 10.000000000000011,
+                "localLength": 48,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 2.22045e-16, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -2.22045e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [29.00, 29.00]
+              },
+              {
+                "faceId": 18,
+                "surfaceType": "plane",
+                "area": 732,
+                "totalEdgeLength": 146,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 2.23167e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 2.23167e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -2.23167e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null],
+                "pointDepths": [16.50, 16.50, 16.50, 16.50, 16.50, 16.50]
+              },
+              {
+                "faceId": 19,
+                "surfaceType": "plane",
+                "area": 702.05792733458679,
+                "totalEdgeLength": 107.87862045841166,
+                "maxConcaveCurvature": null,
+                "localDepth": 21.939310229205841,
+                "localLength": 32,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0.866025, 1.11022e-16, 0.5],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0.5, -1.92296e-16, -0.866025],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-8.4063e-29, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0.5, 1.92296e-16, 0.866025],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [8.4063e-29, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [45.67, 58.33]
+              },
+              {
+                "faceId": 20,
+                "surfaceType": "plane",
+                "area": 492.68327111724057,
+                "totalEdgeLength": 183.73465109989095,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50, 35.50]
+              },
+              {
+                "faceId": 21,
+                "surfaceType": "cylinder",
+                "area": 294.98557044824094,
+                "totalEdgeLength": 83.121197655241644,
+                "maxConcaveCurvature": 0.16666666666666666,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": 41.594486458760258,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1.18424e-15, 2.96059e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, 43.63, 41.59],
+                "pointDepths": [35.49, 35.44, 35.49, 35.44, 34.67, 35.08, 34.43, 32.86, 32.48, 30.39, 29.95]
+              },
+              {
+                "faceId": 22,
+                "surfaceType": "plane",
+                "area": 256,
+                "totalEdgeLength": 64,
+                "maxConcaveCurvature": null,
+                "localDepth": 16,
+                "localLength": 16,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 3.45127e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -3.45127e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -3.45127e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 3.45127e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [76.50, 76.50]
+              },
+              {
+                "faceId": 23,
+                "surfaceType": "plane",
+                "area": 483.72566611769201,
+                "totalEdgeLength": 121.47697291950828,
+                "maxConcaveCurvature": null,
+                "localDepth": 16,
+                "localLength": 28.875805665989841,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 3.45127e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -3.45127e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, 0],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 3.45127e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50, 48.50]
+              },
+              {
+                "faceId": 24,
+                "surfaceType": "plane",
+                "area": 362.03867196751236,
+                "totalEdgeLength": 77.254833995939038,
+                "maxConcaveCurvature": null,
+                "localDepth": 22.627416997969522,
+                "localLength": 16,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0.707107, -0.707107, 2.3383e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0.707107, 0.707107, -2.3383e-31],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -3.30686e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0.707107, -0.707107, 2.3383e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 3.30686e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [7.54, 15.08]
+              },
+              {
+                "faceId": 25,
+                "surfaceType": "plane",
+                "area": 480.00000000000006,
+                "totalEdgeLength": 116,
+                "maxConcaveCurvature": null,
+                "localDepth": 10.000000000000011,
+                "localLength": 48,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 2.22045e-16, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -2.22045e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [29.00, 29.00]
+              },
+              {
+                "faceId": 27,
+                "surfaceType": "plane",
+                "area": 260,
+                "totalEdgeLength": 66,
+                "maxConcaveCurvature": null,
+                "localDepth": 13.000000000000004,
+                "localLength": 20,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.22045e-16, -1],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [30.00, 30.00]
+              },
+              {
+                "faceId": 28,
+                "surfaceType": "plane",
+                "area": 600,
+                "totalEdgeLength": 100,
+                "maxConcaveCurvature": null,
+                "localDepth": 30,
+                "localLength": 20,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 1, -2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -1, 2.22045e-16],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [13.00, 13.00]
+              },
+              {
+                "faceId": 29,
+                "surfaceType": "plane",
+                "area": 260,
+                "totalEdgeLength": 66,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -2.22045e-16, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [0.00, 0.00]
+              },
+              {
+                "faceId": 30,
+                "surfaceType": "plane",
+                "area": 384,
+                "totalEdgeLength": 80,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, 1, -2.95823e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -2.95823e-31, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 2.95823e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [0.00, 0.00]
+              },
+              {
+                "faceId": 31,
+                "surfaceType": "plane",
+                "area": 384,
+                "totalEdgeLength": 80,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, -1, 3.45127e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, 0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, -3.45127e-31, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, 3.45127e-31, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [0.00, 0.00]
+              },
+              {
+                "faceId": 32,
+                "surfaceType": "plane",
+                "area": 1335.4513322353837,
+                "totalEdgeLength": 191.6991118430775,
+                "maxConcaveCurvature": null,
+                "localDepth": 29,
+                "localLength": 33.424777960769383,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [0, 1, -4.93038e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 4.93038e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -4.93038e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00]
+              },
+              {
+                "faceId": 33,
+                "surfaceType": "plane",
+                "area": 1335.4513322353837,
+                "totalEdgeLength": 191.6991118430775,
+                "maxConcaveCurvature": null,
+                "localDepth": 29,
+                "localLength": 33.424777960769383,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [-0, -1, 4.93038e-31],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 4.93038e-31, 1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [1, -0, 0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -4.93038e-31, -1],
+                    "isMachinable": false,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-1, 0, -0],
+                    "isMachinable": false,
+                    "isAccessible": false
+                  }
+                ],
+                "pointClearances": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+                "pointDepths": [26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00, 26.00]
+              },
+              {
+                "faceId": 34,
+                "surfaceType": "plane",
+                "area": 576,
+                "totalEdgeLength": 120,
+                "maxConcaveCurvature": null,
+                "localDepth": null,
+                "localLength": null,
+                "clearance": null,
+                "millingAxes": [
+                  {
+                    "type": "endMilling",
+                    "millingAxis": [1, -0, -0],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 2.22045e-16, 1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [0, 1, -2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -2.22045e-16, -1],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  },
+                  {
+                    "type": "sideMilling",
+                    "millingAxis": [-0, -1, 2.22045e-16],
+                    "isMachinable": true,
+                    "isAccessible": true
+                  }
+                ],
+                "pointClearances": [null, null],
+                "pointDepths": [0.00, 0.00]
+              }
+            ]
+          },
+          "extras": {
+            "latheObstructions": [
+            ],
+            "outline": {
+              "processingTime": 0,
+              "contours": [
+              ]
+            }
+          },
+          "dfm": {
+            "faceAccessibility": null,
+            "edgeAccessibility": null,
+            "vertexAccessibility": {
+              "numInaccessibleVertices": 0
+            },
+            "thicknessAnalysis": null,
+            "clearanceAnalysis": null
+          },
+          "naming": [
+          ]
+        }
+      ]
+    }
+  ]
+}

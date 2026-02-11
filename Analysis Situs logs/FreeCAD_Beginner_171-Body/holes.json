@@ -1,0 +1,151 @@
+{
+  "holes": [
+    {
+      "faceIds": [9],
+      "fullyRecognized": true,
+      "totalDepth": 6.82521,
+      "bores": [
+        {
+          "faceIds": [9],
+          "axis": [0, -2.46519e-31, -1],
+          "diameter": 6,
+          "depth": 6.82521
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [26],
+      "fullyRecognized": true,
+      "totalDepth": 38,
+      "bores": [
+        {
+          "faceIds": [26],
+          "axis": [0, -1, 2.22045e-16],
+          "diameter": 28,
+          "depth": 38
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [35],
+      "fullyRecognized": true,
+      "totalDepth": 16,
+      "bores": [
+        {
+          "faceIds": [35],
+          "axis": [0, 1.47911e-31, 1],
+          "diameter": 6,
+          "depth": 16
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [36, 38, 41],
+      "fullyRecognized": true,
+      "totalDepth": 29.0839,
+      "bores": [
+        {
+          "faceIds": [36],
+          "axis": [0, 4.93038e-32, 1],
+          "diameter": 12,
+          "depth": 27
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [38, 41],
+          "bores": [38],
+          "axis": [0, 9.86076e-32, 1],
+          "diameter": 25,
+          "depth": 2.08392
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [37],
+      "fullyRecognized": true,
+      "totalDepth": 16,
+      "bores": [
+        {
+          "faceIds": [37],
+          "axis": [0, 9.86076e-32, 1],
+          "diameter": 6,
+          "depth": 16
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [39],
+      "fullyRecognized": true,
+      "totalDepth": 12,
+      "bores": [
+        {
+          "faceIds": [39],
+          "axis": [0, -1, 2.22045e-16],
+          "diameter": 6,
+          "depth": 12
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [40],
+      "fullyRecognized": true,
+      "totalDepth": 12,
+      "bores": [
+        {
+          "faceIds": [40],
+          "axis": [0, -1, 2.22045e-16],
+          "diameter": 6,
+          "depth": 12
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "filletChains": [
+    {
+      "faceIds": [1],
+      "totalLength": 19.5,
+      "radius": 20.5,
+      "convex": true,
+      "contourLength": 128.80529879718151
+    },
+    {
+      "faceIds": [21],
+      "totalLength": 21.550510257216999,
+      "radius": 6,
+      "convex": false,
+      "contourLength": 9.4247779607693847
+    }
+  ]
+}
