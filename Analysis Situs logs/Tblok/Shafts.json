@@ -1,0 +1,52 @@
+{
+  "shafts": [
+    {
+      "faceIds": [1],
+      "diameter": 81,
+      "length": 45.8,
+      "axis": [0, 2.22045e-16, 1]
+    },
+    {
+      "faceIds": [23],
+      "diameter": 94,
+      "length": 3.5,
+      "axis": [0, 2.22045e-16, 1]
+    },
+    {
+      "faceIds": [27],
+      "diameter": 89.6,
+      "length": 2.2,
+      "axis": [0, -2.22045e-16, -1]
+    },
+    {
+      "faceIds": [29],
+      "diameter": 94,
+      "length": 3.5,
+      "axis": [0, 2.22045e-16, 1]
+    },
+    {
+      "faceIds": [31],
+      "diameter": 91,
+      "length": 1.5,
+      "axis": [0, -2.22045e-16, -1]
+    },
+    {
+      "faceIds": [33],
+      "diameter": 94,
+      "length": 3.5,
+      "axis": [0, 2.22045e-16, 1]
+    },
+    {
+      "faceIds": [35],
+      "diameter": 91,
+      "length": 1.5,
+      "axis": [0, -2.22045e-16, -1]
+    },
+    {
+      "faceIds": [37],
+      "diameter": 94,
+      "length": 3.5,
+      "axis": [0, 2.22045e-16, 1]
+    }
+  ]
+}

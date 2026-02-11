@@ -1,0 +1,60 @@
+{
+  "filletChains": [
+    {
+      "faceIds": [3],
+      "totalLength": 34.790647230388004,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535900001
+    },
+    {
+      "faceIds": [6],
+      "totalLength": 34.790647230388004,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535900001
+    },
+    {
+      "faceIds": [10],
+      "totalLength": 34.790647230388004,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535900001
+    },
+    {
+      "faceIds": [11],
+      "totalLength": 34.790647230388004,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535899992
+    },
+    {
+      "faceIds": [16],
+      "totalLength": 41.999999999999986,
+      "radius": 10,
+      "convex": false,
+      "contourLength": 15.707963267952071
+    },
+    {
+      "faceIds": [17],
+      "totalLength": 41.999999999999986,
+      "radius": 10,
+      "convex": false,
+      "contourLength": 15.707963267949999
+    },
+    {
+      "faceIds": [20],
+      "totalLength": 42,
+      "radius": 10,
+      "convex": false,
+      "contourLength": 15.707963267949996
+    },
+    {
+      "faceIds": [21],
+      "totalLength": 42,
+      "radius": 10,
+      "convex": false,
+      "contourLength": 15.707963267951035
+    }
+  ]
+}

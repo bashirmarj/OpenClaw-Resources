@@ -1,0 +1,44 @@
+{
+  "holes": [
+    {
+      "faceIds": [14],
+      "fullyRecognized": true,
+      "totalDepth": 21,
+      "bores": [
+        {
+          "faceIds": [14],
+          "axis": [1, -1.09476e-47, -2.22045e-16],
+          "diameter": 22,
+          "depth": 21
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [24],
+      "fullyRecognized": true,
+      "totalDepth": 21,
+      "bores": [
+        {
+          "faceIds": [24],
+          "axis": [1, -1.09476e-47, -2.22045e-16],
+          "diameter": 22,
+          "depth": 21
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    }
+  ]
+}
