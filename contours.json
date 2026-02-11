@@ -1,0 +1,959 @@
+{
+  "prismaticMilling": [
+    {
+      "faceIds": [29, 33, 38, 39, 40, 41, 42, 43, 44, 45, 46, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 103],
+      "configurations": [
+        {
+          "axis": [0, 0, 1],
+          "depth": 29,
+          "clearance": 17.920398780237669,
+          "faceIds": [38, 39, 40, 41, 42, 43, 44, 45, 46, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 103],
+          "walls": [
+            {
+              "faceId": 38,
+              "area": 3382.91,
+              "contourLength": 153.769,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 48.035535588606997,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 39,
+              "area": 217.377,
+              "contourLength": 9.88079,
+              "maxHeight": 22,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "oppositeFaceDistance": 121.4895027534875,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 40,
+              "area": 1321.98,
+              "contourLength": 60.0901,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 85.432142813107859,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 41,
+              "area": 3780.99,
+              "contourLength": 171.863,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 39.695891724468645,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 42,
+              "area": 470.5,
+              "contourLength": 18.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 60.402609304236989,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 43,
+              "area": 217.377,
+              "contourLength": 9.88079,
+              "maxHeight": 22,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "oppositeFaceDistance": 60.973070717059784,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 44,
+              "area": 502.763,
+              "contourLength": 19.635,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 124.6787155501902,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 45,
+              "area": 2342.65,
+              "contourLength": 106.484,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 49.691285815679777,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 46,
+              "area": 1330.02,
+              "contourLength": 60.4554,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 93.950000000000003,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 50,
+              "area": 157.019,
+              "contourLength": 7.13724,
+              "maxHeight": 22,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "oppositeFaceDistance": 41.982245555927278,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 51,
+              "area": 2768.67,
+              "contourLength": 125.848,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 20.979276356136236,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 52,
+              "area": 1855.9,
+              "contourLength": 84.359,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 32.902608377847955,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 53,
+              "area": 131.637,
+              "contourLength": 5.98352,
+              "maxHeight": 22,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "oppositeFaceDistance": 37.931312982680247,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 54,
+              "area": 1303.42,
+              "contourLength": 139.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 158.94999999999999,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 55,
+              "area": 2586.33,
+              "contourLength": 117.561,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 32.159999999999982,
+              "accessibleSideMillingAxes": [
+                [-0, -0, 1]
+              ]
+            },
+            {
+              "faceId": 56,
+              "area": 789.003,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 61.215716869029514,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 57,
+              "area": 2452.18,
+              "contourLength": 111.463,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 56.938737064013985,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 58,
+              "area": 1366.82,
+              "contourLength": 62.1283,
+              "maxHeight": 22,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 60.464409598005801,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 59,
+              "area": 235.909,
+              "contourLength": 10.7232,
+              "maxHeight": 22,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "oppositeFaceDistance": 122.72166473997419,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 70,
+              "area": 1450.28,
+              "contourLength": 50.0096,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 109.9661583726633,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 71,
+              "area": 1154.96,
+              "contourLength": 39.8261,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 92.281068529903507,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 72,
+              "area": 1235.02,
+              "contourLength": 42.587,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 93.950000000000003,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 73,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 84,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 74,
+              "area": 569.414,
+              "contourLength": 19.635,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 99.929978208661055,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 75,
+              "area": 1885,
+              "contourLength": 65,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 47.592131562911632,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 76,
+              "area": 942.779,
+              "contourLength": 32.5096,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 93.255976056302103,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 77,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 46.098724446530511,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 78,
+              "area": 1154.96,
+              "contourLength": 39.8261,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 88.104146535118261,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 79,
+              "area": 1885,
+              "contourLength": 65,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 32.461049587954605,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 80,
+              "area": 655.022,
+              "contourLength": 22.587,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 94.950000000000003,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 81,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 95.315101503573075,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 82,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 85,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 83,
+              "area": 217.5,
+              "contourLength": 7.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 103.03719911410037,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 84,
+              "area": 3625,
+              "contourLength": 125,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 54.364392080267159,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 85,
+              "area": 1044,
+              "contourLength": 36,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 254.86381757301803,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 86,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 89.731123849890821,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 87,
+              "area": 3045,
+              "contourLength": 105,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 37.649071267611632,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 88,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 22.209999999999994,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 89,
+              "area": 911.062,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 92.608728968412592,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 90,
+              "area": 3117.5,
+              "contourLength": 107.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 32.159999999999997,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 91,
+              "area": 304.5,
+              "contourLength": 10.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 48.843265393676759,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 92,
+              "area": 455.531,
+              "contourLength": 15.708,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 20.826661492763222,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 93,
+              "area": 1406.5,
+              "contourLength": 48.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 45.310000000000002,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 94,
+              "area": 1653,
+              "contourLength": 57,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 18.810829129624224,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 95,
+              "area": 569.414,
+              "contourLength": 19.635,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 51.648727189243594,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 96,
+              "area": 569.414,
+              "contourLength": 19.635,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 17.920398780237669,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            },
+            {
+              "faceId": 97,
+              "area": 536.5,
+              "contourLength": 18.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 32.810000000000002,
+              "accessibleSideMillingAxes": [
+                [0, -0, 1]
+              ]
+            }
+          ],
+          "bottomFaces": [
+            {
+              "faceId": 103,
+              "area": 45262.4,
+              "maxLength": 450,
+              "maxWidth": 195,
+              "outerContourLength": 2337.83,
+              "maxConcaveCurvature": 0.20000000000000001,
+              "walls": [38, 39, 40, 41, 42, 43, 44, 45, 46, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97]
+            }
+          ],
+          "filletChains": [
+          ],
+          "outline": {
+            "processingTime": 0,
+            "contours": [
+            ]
+          }
+        },
+        {
+          "axis": [0, 0, 1],
+          "depth": 29,
+          "clearance": 61.215716869029514,
+          "faceIds": [33, 54, 56],
+          "walls": [
+            {
+              "faceId": 54,
+              "area": 1303.42,
+              "contourLength": 139.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 158.94999999999999,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 56,
+              "area": 789.003,
+              "contourLength": 31.4159,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 61.215716869029514,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            }
+          ],
+          "bottomFaces": [
+            {
+              "faceId": 33,
+              "area": 12918,
+              "maxLength": 210.14,
+              "maxWidth": 149,
+              "outerContourLength": 655.391,
+              "maxConcaveCurvature": null,
+              "walls": [54, 56]
+            }
+          ],
+          "filletChains": [
+          ],
+          "outline": {
+            "processingTime": 0,
+            "contours": [
+            ]
+          }
+        },
+        {
+          "axis": [0, 0, 1],
+          "depth": 29,
+          "clearance": 60.402609304236989,
+          "faceIds": [29, 42, 44],
+          "walls": [
+            {
+              "faceId": 42,
+              "area": 470.5,
+              "contourLength": 18.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 60.402609304236989,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 44,
+              "area": 502.763,
+              "contourLength": 19.635,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": 124.6787155501902,
+              "accessibleSideMillingAxes": [
+                [0, 0, 1]
+              ]
+            }
+          ],
+          "bottomFaces": [
+            {
+              "faceId": 29,
+              "area": 5372.82,
+              "maxLength": 216.365,
+              "maxWidth": 121.32,
+              "outerContourLength": 578.452,
+              "maxConcaveCurvature": null,
+              "walls": [42, 44]
+            }
+          ],
+          "filletChains": [
+          ],
+          "outline": {
+            "processingTime": 0,
+            "contours": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "faceIds": [1, 3, 4, 5, 6, 7, 8, 9, 10],
+      "configurations": [
+        {
+          "axis": [-0, 1, 0],
+          "depth": 220,
+          "clearance": null,
+          "faceIds": [1, 4],
+          "walls": [
+            {
+              "faceId": 4,
+              "area": 8528.24,
+              "contourLength": 475,
+              "maxHeight": 220,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+              ]
+            }
+          ],
+          "bottomFaces": [
+            {
+              "faceId": 1,
+              "area": 12833.8,
+              "maxLength": 442.543,
+              "maxWidth": 29,
+              "outerContourLength": 943.087,
+              "maxConcaveCurvature": null,
+              "walls": [4]
+            }
+          ],
+          "filletChains": [
+          ],
+          "outline": {
+            "processingTime": 0,
+            "contours": [
+            ]
+          }
+        },
+        {
+          "axis": [-0, -0, -1],
+          "depth": 29,
+          "clearance": null,
+          "faceIds": [1, 3, 4, 5, 6, 7, 8, 9, 10],
+          "walls": [
+            {
+              "faceId": 1,
+              "area": 12833.8,
+              "contourLength": 442.543,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [0, 0, -1]
+              ]
+            },
+            {
+              "faceId": 3,
+              "area": 4973.5,
+              "contourLength": 171.5,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [0, 0, -1]
+              ]
+            },
+            {
+              "faceId": 5,
+              "area": 1157.48,
+              "contourLength": 39.913,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [0, 0, -1]
+              ]
+            },
+            {
+              "faceId": 6,
+              "area": 4012.69,
+              "contourLength": 138.369,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [0, 0, -1]
+              ]
+            },
+            {
+              "faceId": 7,
+              "area": 5510,
+              "contourLength": 190,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 8,
+              "area": 1157.48,
+              "contourLength": 39.913,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [-0, 0, -1]
+              ]
+            },
+            {
+              "faceId": 9,
+              "area": 1044,
+              "contourLength": 36,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+              ]
+            },
+            {
+              "faceId": 10,
+              "area": 7323.76,
+              "contourLength": 252.543,
+              "maxHeight": 29,
+              "maxConcaveCurvature": null,
+              "oppositeFaceDistance": null,
+              "accessibleSideMillingAxes": [
+                [-0, -0, -1]
+              ]
+            }
+          ],
+          "bottomFaces": [
+            {
+              "faceId": 4,
+              "area": 8528.24,
+              "maxLength": 475,
+              "maxWidth": 220,
+              "outerContourLength": 1360.72,
+              "maxConcaveCurvature": null,
+              "walls": [1, 3, 5, 6, 7, 8, 9, 10]
+            }
+          ],
+          "filletChains": [
+          ],
+          "outline": {
+            "processingTime": 0,
+            "contours": [
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "shoulders": [
+    {
+      "primary": {
+        "normalAxis": [-0, -1, -0],
+        "faces": [
+          {
+            "faceId": 24,
+            "area": 1140,
+            "maxLength": 6,
+            "maxWidth": 190
+          }
+        ]
+      },
+      "secondary": {
+        "normalAxis": [1, -0, -0],
+        "faces": [
+          {
+            "faceId": 26,
+            "area": 216,
+            "maxLength": 6,
+            "maxWidth": 36
+          }
+        ]
+      }
+    }
+  ],
+  "freeFlat": [
+    {
+      "faceId": 2,
+      "isChamfer": false,
+      "normalAxis": [-0, -0, -1],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [1, 0, -0],
+        [-0, 1, 0],
+        [-1, -0, 0],
+        [0, -1, -0]
+      ],
+      "area": 76932.1,
+      "outerContourArea": 88438.9,
+      "outerContourLength": 1310.78,
+      "uAxis": [1, 0, 0],
+      "vAxis": [0, 1, 0],
+      "uLength": 462.5,
+      "vLength": 207.5
+    },
+    {
+      "faceId": 20,
+      "isChamfer": false,
+      "normalAxis": [-0, 1, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [1, 0, 0],
+        [-0, 0, 1],
+        [-1, -0, -0],
+        [0, -0, -1]
+      ],
+      "area": 2730,
+      "outerContourArea": 2730,
+      "outerContourLength": 922,
+      "uAxis": [1, 0, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 455,
+      "vLength": 6
+    },
+    {
+      "faceId": 21,
+      "isChamfer": false,
+      "normalAxis": [-0.866025, 0.5, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [0.5, 0.866025, 0],
+        [-0, 0, 1],
+        [-0.5, -0.866025, -0],
+        [0, -0, -1]
+      ],
+      "area": 240,
+      "outerContourArea": 240,
+      "outerContourLength": 92,
+      "uAxis": [0.5, 0.866025, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 40,
+      "vLength": 6
+    },
+    {
+      "faceId": 22,
+      "isChamfer": false,
+      "normalAxis": [1, -0, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [0, -1, 0],
+        [0, 0, 1],
+        [-0, 1, -0],
+        [-0, -0, -1]
+      ],
+      "area": 1104,
+      "outerContourArea": 1104,
+      "outerContourLength": 380,
+      "uAxis": [0, -1, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 184,
+      "vLength": 6
+    },
+    {
+      "faceId": 23,
+      "isChamfer": false,
+      "normalAxis": [-1, -0, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [-0, 1, 0],
+        [0, -0, 1],
+        [0, -1, -0],
+        [-0, 0, -1]
+      ],
+      "area": 904.308,
+      "outerContourArea": 904.308,
+      "outerContourLength": 313.436,
+      "uAxis": [0, 1, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 150.718,
+      "vLength": 6
+    },
+    {
+      "faceId": 25,
+      "isChamfer": false,
+      "normalAxis": [-0.866025, -0.5, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [-0.5, 0.866025, 0],
+        [0, -0, 1],
+        [0.5, -0.866025, -0],
+        [-0, 0, -1]
+      ],
+      "area": 240,
+      "outerContourArea": 240,
+      "outerContourLength": 92,
+      "uAxis": [-0.5, 0.866025, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 40,
+      "vLength": 6
+    },
+    {
+      "faceId": 27,
+      "isChamfer": false,
+      "normalAxis": [-0, -1, -0],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [-1, 0, 0],
+        [0, -0, 1],
+        [1, -0, -0],
+        [-0, 0, -1]
+      ],
+      "area": 1590,
+      "outerContourArea": 1590,
+      "outerContourLength": 542,
+      "uAxis": [-1, 0, 0],
+      "vAxis": [0, 0, 1],
+      "uLength": 265,
+      "vLength": 6
+    },
+    {
+      "faceId": 36,
+      "isChamfer": false,
+      "normalAxis": [0, 0, 1],
+      "endMillingAccessible": true,
+      "accessibleSideMillingAxes": [
+        [1, 0, -0],
+        [-0, 1, 0],
+        [-1, -0, 0],
+        [0, -1, -0]
+      ],
+      "area": 18777.3,
+      "outerContourArea": 96967.2,
+      "outerContourLength": 1360.72,
+      "uAxis": [1, 0, 0],
+      "vAxis": [0, 1, 0],
+      "uLength": 475,
+      "vLength": 220
+    }
+  ],
+  "sideMilling": [
+  ]
+}

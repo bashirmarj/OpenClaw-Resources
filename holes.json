@@ -1,0 +1,551 @@
+{
+  "holes": [
+    {
+      "faceIds": [11, 28, 37],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [11],
+          "axis": [0, 0, 1],
+          "diameter": 45,
+          "depth": 6
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [28, 37],
+          "bores": [37],
+          "axis": [0, 0, 1],
+          "diameter": 53,
+          "depth": 22
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [12],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [12],
+          "axis": [0, 0, 1],
+          "diameter": 75,
+          "depth": 28
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [13, 30, 47],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [13],
+          "axis": [0, 0, 1],
+          "diameter": 12,
+          "depth": 18
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [30, 47],
+          "bores": [47],
+          "axis": [0, 0, 1],
+          "diameter": 20,
+          "depth": 10
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [14, 31, 48],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [14],
+          "axis": [0, 0, 1],
+          "diameter": 12,
+          "depth": 18
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [31, 48],
+          "bores": [48],
+          "axis": [0, 0, 1],
+          "diameter": 20,
+          "depth": 10
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [15, 32, 49],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [15],
+          "axis": [0, 0, 1],
+          "diameter": 70,
+          "depth": 6
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [32, 49],
+          "bores": [49],
+          "axis": [0, 0, 1],
+          "diameter": 80,
+          "depth": 22
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [16],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [16],
+          "axis": [0, 0, 1],
+          "diameter": 30,
+          "depth": 28
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [17, 34, 60],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [17],
+          "axis": [0, 0, 1],
+          "diameter": 12,
+          "depth": 18
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [34, 60],
+          "bores": [60],
+          "axis": [0, 0, 1],
+          "diameter": 24,
+          "depth": 10
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [18, 35, 61],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [18],
+          "axis": [0, 0, 1],
+          "diameter": 12,
+          "depth": 18
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+        {
+          "faceIds": [35, 61],
+          "bores": [61],
+          "axis": [0, 0, 1],
+          "diameter": 24,
+          "depth": 10
+        }
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [19],
+      "fullyRecognized": true,
+      "totalDepth": 28,
+      "bores": [
+        {
+          "faceIds": [19],
+          "axis": [0, 0, 1],
+          "diameter": 25,
+          "depth": 28
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [62, 104],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [62],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [104],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [63, 105],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [63],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [105],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [64, 106],
+      "fullyRecognized": true,
+      "totalDepth": 12,
+      "bores": [
+        {
+          "faceIds": [64],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 12
+        }
+      ],
+      "bottom": {
+        "faceIds": [106],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [65, 107],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [65],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [107],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [66, 108],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [66],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [108],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [67, 109],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [67],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [109],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [68, 110],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [68],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [110],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [69, 111],
+      "fullyRecognized": true,
+      "totalDepth": 12,
+      "bores": [
+        {
+          "faceIds": [69],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 12
+        }
+      ],
+      "bottom": {
+        "faceIds": [111],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [98, 112],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [98],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [112],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [99, 113],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [99],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [113],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [100, 114],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [100],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [114],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [101, 115],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [101],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [115],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [102, 116],
+      "fullyRecognized": true,
+      "totalDepth": 10,
+      "bores": [
+        {
+          "faceIds": [102],
+          "axis": [0, 0, 1],
+          "diameter": 5,
+          "depth": 10
+        }
+      ],
+      "bottom": {
+        "faceIds": [116],
+        "axis": [0, 0, 1],
+        "bottomAngle": 118,
+        "depth": 1.50215
+      },
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    }
+  ]
+}
