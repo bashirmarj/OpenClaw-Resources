@@ -1,0 +1,242 @@
+{
+  "filletChains": [
+    {
+      "faceIds": [4],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [5],
+      "totalLength": 4.7123889803846897,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [6],
+      "totalLength": 15.500000267135,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 4.324799826247677
+    },
+    {
+      "faceIds": [7],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [8],
+      "totalLength": 9.5812418549,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [9],
+      "totalLength": 4.7906211354499995,
+      "radius": 12.5,
+      "convex": true,
+      "contourLength": 19.634954084936208
+    },
+    {
+      "faceIds": [10],
+      "totalLength": 36.128315516282626,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [11],
+      "totalLength": 22.238079998048878,
+      "radius": 2.0008381397644621,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [13],
+      "totalLength": 21,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [14],
+      "totalLength": 4.7123889803846897,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [15],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [16],
+      "totalLength": 4.79062092745,
+      "radius": 12.5,
+      "convex": true,
+      "contourLength": 19.634954084936208
+    },
+    {
+      "faceIds": [17],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [19],
+      "totalLength": 52.87643950011163,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1416127447579445
+    },
+    {
+      "faceIds": [20],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [21],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 4.3247986590395993
+    },
+    {
+      "faceIds": [22],
+      "totalLength": 22.238082974398072,
+      "radius": 2.0008319932270222,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [24],
+      "totalLength": 9.5812418549,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [25],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [26],
+      "totalLength": 52.876439500111651,
+      "radius": 2.0000000000000009,
+      "convex": false,
+      "contourLength": 3.1415953030733519
+    },
+    {
+      "faceIds": [27],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [28],
+      "totalLength": 9.5812418549,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [29],
+      "totalLength": 4.7123889803846897,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [30],
+      "totalLength": 21,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [31],
+      "totalLength": 4.7123889803846897,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [32],
+      "totalLength": 9.5812418549,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [34],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 4.324968414085153
+    },
+    {
+      "faceIds": [36],
+      "totalLength": 0,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [37],
+      "totalLength": 15.500000267135,
+      "radius": 2,
+      "convex": false,
+      "contourLength": 4.3247986590395993
+    },
+    {
+      "faceIds": [39],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 3.1415926535897931
+    },
+    {
+      "faceIds": [40],
+      "totalLength": 4.79062092745,
+      "radius": 12.5,
+      "convex": true,
+      "contourLength": 19.634954084936208
+    },
+    {
+      "faceIds": [41],
+      "totalLength": 36.128315516282626,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 0
+    },
+    {
+      "faceIds": [42],
+      "totalLength": 4.7906211354499995,
+      "radius": 12.5,
+      "convex": true,
+      "contourLength": 19.634954084936208
+    },
+    {
+      "faceIds": [45],
+      "totalLength": 15.5,
+      "radius": 2,
+      "convex": true,
+      "contourLength": 3.1415926535897931
+    }
+  ]
+}

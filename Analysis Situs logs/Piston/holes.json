@@ -1,0 +1,64 @@
+{
+  "holes": [
+    {
+      "faceIds": [1, 2],
+      "fullyRecognized": true,
+      "totalDepth": 19.0474,
+      "bores": [
+        {
+          "faceIds": [1, 2],
+          "axis": [-1, 0, 0],
+          "diameter": 15,
+          "depth": 19.0474
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [18, 35],
+      "fullyRecognized": true,
+      "totalDepth": 40.5,
+      "bores": [
+        {
+          "faceIds": [18, 35],
+          "axis": [0, -7.5057e-16, -1],
+          "diameter": 56,
+          "depth": 40.5
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    },
+    {
+      "faceIds": [63, 64],
+      "fullyRecognized": true,
+      "totalDepth": 19.0474,
+      "bores": [
+        {
+          "faceIds": [63, 64],
+          "axis": [-1, 0, 0],
+          "diameter": 15,
+          "depth": 19.0474
+        }
+      ],
+      "bottom": null,
+      "countersinks": [
+      ],
+      "counterbores": [
+      ],
+      "threads": [
+      ]
+    }
+  ]
+}

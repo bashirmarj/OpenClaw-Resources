@@ -1,0 +1,89 @@
+{
+  "features": {
+    "holes": [
+      {
+        "faceIds": [1, 2],
+        "fullyRecognized": true,
+        "totalDepth": 19.0473750966,
+        "bores": [
+          {
+            "faceIds": [1, 2],
+            "axis": [-1, 0, 0],
+            "diameter": 15,
+            "depth": 19.0473750966
+          }
+        ],
+        "bottom": null,
+        "countersinks": [
+        ],
+        "counterbores": [
+        ],
+        "threads": [
+        ]
+      },
+      {
+        "faceIds": [63, 64],
+        "fullyRecognized": true,
+        "totalDepth": 19.047376244700001,
+        "bores": [
+          {
+            "faceIds": [63, 64],
+            "axis": [-1, 0, 0],
+            "diameter": 15,
+            "depth": 19.047376244700001
+          }
+        ],
+        "bottom": null,
+        "countersinks": [
+        ],
+        "counterbores": [
+        ],
+        "threads": [
+        ]
+      }
+    ],
+    "turnDiameters": [47, 48, 50, 51, 53, 54, 56, 57, 59, 60],
+    "turnTapers": [],
+    "turnContours": [61, 62],
+    "turnFaces": [43, 49, 52, 55, 58],
+    "bores": [
+    ],
+    "threads": [
+    ],
+    "nvFeatures": {
+      "segments": [
+      ],
+      "nvSteps": [
+      ],
+      "nvBores": [
+      ],
+      "nvGrooves": [
+      ]
+    }
+  },
+  "extras": {
+    "latheObstructions": [
+      {
+        "id": 18,
+        "length": 30.000002916299575
+      },
+      {
+        "id": 19,
+        "length": 2.0000000000000044
+      },
+      {
+        "id": 26,
+        "length": 2.0000000000000115
+      },
+      {
+        "id": 35,
+        "length": 30.000002916299586
+      }
+    ],
+    "outline": {
+      "processingTime": 0,
+      "contours": [
+      ]
+    }
+  }
+}
