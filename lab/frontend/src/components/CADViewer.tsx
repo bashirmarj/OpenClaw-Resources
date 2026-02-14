@@ -19,7 +19,7 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
       setMeshes([]);
       setLoading(true);
       try {
-        const backendUrl = "https://chatty-sites-tie.loca.lt";
+        const backendUrl = "";
         const response = await fetch(`${backendUrl}/resources/file/${partName}/step`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
