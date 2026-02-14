@@ -10,13 +10,6 @@ import json
 
 app = FastAPI(title="Vectis Validation Lab Bridge")
 
-# Serve Frontend
-app.mount("/lab", StaticFiles(directory="static", html=True), name="lab")
-
-@app.get("/")
-async def redirect_to_lab():
-    return FileResponse("static/index.html")
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -24,26 +17,27 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# API Routes first
 @app.get("/status")
 async def get_status():
     return {"status": "online", "mode": "watcher", "project": "Vectis Lab"}
 
 @app.get("/resources/list")
 async def list_resources():
-    resource_path = "../../Analysis Situs logs"
+    # Look for logs in the repo root
+    resource_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../Analysis Situs logs"))
     if not os.path.exists(resource_path):
-        return {"error": "Resource path not found"}
+        return {"error": f"Resource path not found at {resource_path}"}
     
     parts = []
     for item in os.listdir(resource_path):
         full_path = os.path.join(resource_path, item)
-        if os.path.isdir(full_path):
+        if os.path.isdir(full_path) and not item.startswith('.'):
             parts.append(item)
     return {"parts": parts}
 
 @app.get("/resources/data/{part_name}/{data_type}")
 async def get_resource_data(part_name: str, data_type: str):
-    # data_type can be 'holes', 'blends', 'step_path', etc.
     file_map = {
         "holes": "holes.json",
         "blends": "blends.json",
@@ -53,32 +47,43 @@ async def get_resource_data(part_name: str, data_type: str):
     if data_type not in file_map:
         raise HTTPException(status_code=400, detail="Invalid data type")
         
-    file_path = f"../../Analysis Situs logs/{part_name}/{file_map[data_type]}"
+    resource_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../Analysis Situs logs"))
+    file_path = os.path.join(resource_path, part_name, file_map[data_type])
+    
     if not os.path.exists(file_path):
-        raise HTTPException(status_code=404, detail="Data file not found")
+        raise HTTPException(status_code=404, detail=f"Data file not found at {file_path}")
         
     with open(file_path, "r") as f:
         return json.load(f)
 
 @app.get("/resources/file/{part_name}/step")
 async def get_step_file(part_name: str):
-    # Try different common step extensions
-    base_path = f"../../Analysis Situs logs/{part_name}/{part_name}"
+    resource_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../Analysis Situs logs"))
+    base_path = os.path.join(resource_path, part_name, part_name)
+    
     for ext in [".step", ".stp", ".STEP", ".STP"]:
         full_path = base_path + ext
         if os.path.exists(full_path):
-            from fastapi.responses import FileResponse
             return FileResponse(full_path)
     
-    # Fallback: check all files in directory for any .step/.stp
-    dir_path = f"../data/resources/Analysis Situs logs/{part_name}"
+    dir_path = os.path.join(resource_path, part_name)
     if os.path.exists(dir_path):
         for f in os.listdir(dir_path):
             if f.lower().endswith((".step", ".stp")):
-                from fastapi.responses import FileResponse
                 return FileResponse(os.path.join(dir_path, f))
                 
     raise HTTPException(status_code=404, detail="STEP file not found")
+
+# Serve static files from the 'static' directory
+static_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "static"))
+
+@app.get("/")
+async def serve_index():
+    return FileResponse(os.path.join(static_dir, "index.html"))
+
+# Mount the rest of the static files (assets, etc.)
+if os.path.exists(static_dir):
+    app.mount("/", StaticFiles(directory=static_dir), name="static")
 
 if __name__ == "__main__":
     uvicorn.run("lab_bridge:app", host="0.0.0.0", port=8000, reload=True)
