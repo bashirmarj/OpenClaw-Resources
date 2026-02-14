@@ -9,43 +9,62 @@ interface CADModelProps {
 }
 
 const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
-  const [mesh, setMesh] = useState<THREE.Mesh | null>(null);
+  const [meshes, setMeshes] = useState<THREE.Mesh[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function loadModel() {
-      setMesh(null);
+      setMeshes([]);
       setLoading(true);
       try {
-        const backendUrl = "";
-        const response = await fetch(`${backendUrl}/resources/data/${partName}/mesh`);
+        const response = await fetch(`/resources/file/${partName}/step`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
-        const data = await response.json();
+        const buffer = await response.arrayBuffer();
+        const uint8Array = new Uint8Array(buffer);
         
-        const geometry = new THREE.BufferGeometry();
-        geometry.setAttribute('position', new THREE.Float32BufferAttribute(data.vertices, 3));
-        if (data.normals && data.normals.length > 0) {
-            geometry.setAttribute('normal', new THREE.Float32BufferAttribute(data.normals, 3));
-        } else {
-            geometry.computeVertexNormals();
+        // Find the OCCT function (handle various potential names)
+        // @ts-ignore
+        const initFn = window.occtimportjs || window.occtImportJs;
+        if (!initFn) {
+            console.error("Available on window:", Object.keys(window));
+            throw new Error("OCCT library not found on window object.");
         }
+
+        const occt = await initFn();
+        const result = occt.ReadStepFile(uint8Array, null);
         
-        if (data.indices) {
-            geometry.setIndex(data.indices);
+        if (!result || !result.success) {
+            throw new Error("OCCT failed to parse STEP file.");
         }
+
+        const newMeshes: THREE.Mesh[] = [];
         
-        const material = new THREE.MeshStandardMaterial({ 
+        result.meshes.forEach((meshData: any) => {
+          const geometry = new THREE.BufferGeometry();
+          geometry.setAttribute('position', new THREE.Float32BufferAttribute(meshData.attributes.position.array, 3));
+          if (meshData.attributes.normal) {
+            geometry.setAttribute('normal', new THREE.Float32BufferAttribute(meshData.attributes.normal.array, 3));
+          }
+          if (meshData.attributes.index) {
+            geometry.setIndex(new THREE.Uint32BufferAttribute(meshData.attributes.index.array, 1));
+          }
+          
+          const material = new THREE.MeshStandardMaterial({ 
             color: 0x60a5fa,
             metalness: 0.5,
             roughness: 0.5,
             side: THREE.DoubleSide
+          });
+          
+          const mesh = new THREE.Mesh(geometry, material);
+          mesh.userData = { faceId: meshData.face_index }; 
+          newMeshes.push(mesh);
         });
         
-        const newMesh = new THREE.Mesh(geometry, material);
-        setMesh(newMesh);
+        setMeshes(newMeshes);
       } catch (err) {
-        console.error("Failed to load Mesh Data:", err);
+        console.error("Failed to load STEP:", err);
       } finally {
         setLoading(false);
       }
@@ -53,17 +72,21 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
     loadModel();
   }, [partName]);
 
-  if (loading || !mesh) return null;
+  if (loading) return null;
 
   return (
-    <primitive 
-        object={mesh} 
-        onClick={(e: any) => {
+    <group>
+      {meshes.map((mesh, i) => (
+        <primitive 
+          key={i} 
+          object={mesh} 
+          onClick={(e: any) => {
             e.stopPropagation();
-            // Face selection logic can be enhanced here using face_mapping
-            if (onFaceClick) onFaceClick(0); 
-        }}
-    />
+            if (onFaceClick) onFaceClick(mesh.userData.faceId);
+          }}
+        />
+      ))}
+    </group>
   );
 };
 
@@ -86,10 +109,6 @@ const CADViewer = ({ partName, onFaceClick }: { partName: string, onFaceClick?: 
           <ContactShadows position={[0, -10, 0]} opacity={0.4} scale={20} blur={2} far={4.5} />
         </Suspense>
       </Canvas>
-      
-      <div className="absolute bottom-4 left-4 bg-slate-900/80 backdrop-blur border border-slate-700 p-2 rounded text-[10px] font-mono text-slate-400 uppercase tracking-wider">
-        Renderer: WebGL / Backend Processed
-      </div>
     </div>
   );
 };
