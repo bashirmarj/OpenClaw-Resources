@@ -1,5 +1,5 @@
-import { useEffect, useState, Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
+import { useEffect, useState, Suspense, useRef } from 'react';
+import { Canvas, useThree } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, Center, Environment, ContactShadows } from '@react-three/drei';
 import * as THREE from 'three';
 
@@ -11,6 +11,7 @@ interface CADModelProps {
 const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
   const [meshes, setMeshes] = useState<THREE.Mesh[]>([]);
   const [loading, setLoading] = useState(true);
+  const { camera, controls } = useThree();
 
   useEffect(() => {
     async function loadModel() {
@@ -23,22 +24,17 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
         const buffer = await response.arrayBuffer();
         const uint8Array = new Uint8Array(buffer);
         
-        // Find the OCCT function (handle various potential names)
         // @ts-ignore
         const initFn = window.occtimportjs || window.occtImportJs;
-        if (!initFn) {
-            console.error("Available on window:", Object.keys(window));
-            throw new Error("OCCT library not found on window object.");
-        }
+        if (!initFn) throw new Error("OCCT library not found on window object.");
 
         const occt = await initFn();
         const result = occt.ReadStepFile(uint8Array, null);
         
-        if (!result || !result.success) {
-            throw new Error("OCCT failed to parse STEP file.");
-        }
+        if (!result || !result.success) throw new Error("OCCT failed to parse STEP file.");
 
         const newMeshes: THREE.Mesh[] = [];
+        const boundingBox = new THREE.Box3();
         
         result.meshes.forEach((meshData: any) => {
           const geometry = new THREE.BufferGeometry();
@@ -60,9 +56,34 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
           const mesh = new THREE.Mesh(geometry, material);
           mesh.userData = { faceId: meshData.face_index }; 
           newMeshes.push(mesh);
+          
+          geometry.computeBoundingBox();
+          if (geometry.boundingBox) boundingBox.expandByPoint(geometry.boundingBox.min).expandByPoint(geometry.boundingBox.max);
         });
         
         setMeshes(newMeshes);
+
+        // Auto-focus camera
+        if (!boundingBox.isEmpty()) {
+            const center = new THREE.Vector3();
+            boundingBox.getCenter(center);
+            const size = new THREE.Vector3();
+            boundingBox.getSize(size);
+            const maxDim = Math.max(size.x, size.y, size.z);
+            const fov = (camera as THREE.PerspectiveCamera).fov * (Math.PI / 180);
+            let cameraZ = Math.abs(maxDim / 2 / Math.tan(fov / 2));
+            cameraZ *= 2.5; // Zoom out a bit
+
+            camera.position.set(center.x + cameraZ, center.y + cameraZ, center.z + cameraZ);
+            camera.lookAt(center);
+            if (controls) {
+                // @ts-ignore
+                controls.target.copy(center);
+                // @ts-ignore
+                controls.update();
+            }
+        }
+
       } catch (err) {
         console.error("Failed to load STEP:", err);
       } finally {
@@ -70,7 +91,7 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
       }
     }
     loadModel();
-  }, [partName]);
+  }, [partName, camera, controls]);
 
   if (loading) return null;
 
@@ -94,21 +115,23 @@ const CADViewer = ({ partName, onFaceClick }: { partName: string, onFaceClick?: 
   return (
     <div className="w-full h-full bg-slate-950 rounded-xl overflow-hidden border border-slate-800 shadow-2xl relative">
       <Canvas shadows gl={{ antialias: true }}>
-        <PerspectiveCamera makeDefault position={[150, 150, 150]} fov={35} />
-        <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 1.75} />
+        <PerspectiveCamera makeDefault position={[200, 200, 200]} fov={45} />
+        <OrbitControls makeDefault />
         
         <ambientLight intensity={1.5} />
-        <pointLight position={[100, 100, 100]} intensity={2} castShadow />
-        <spotLight position={[-100, 100, 100]} angle={0.15} penumbra={1} intensity={2} />
+        <pointLight position={[100, 100, 100]} intensity={2.5} castShadow />
+        <spotLight position={[-100, 100, 100]} angle={0.15} penumbra={1} intensity={2.5} />
         
         <Suspense fallback={null}>
-          <Center top>
-            <CADModel partName={partName} onFaceClick={onFaceClick} />
-          </Center>
+          <CADModel partName={partName} onFaceClick={onFaceClick} />
           <Environment preset="city" />
-          <ContactShadows position={[0, -10, 0]} opacity={0.4} scale={20} blur={2} far={4.5} />
+          <ContactShadows position={[0, -10, 0]} opacity={0.4} scale={50} blur={2} far={10} />
         </Suspense>
       </Canvas>
+      
+      <div className="absolute bottom-4 left-4 bg-slate-900/80 backdrop-blur border border-slate-700 p-2 rounded text-[10px] font-mono text-slate-400 uppercase tracking-wider">
+        Renderer: WebGL / OCCT Engine
+      </div>
     </div>
   );
 };
