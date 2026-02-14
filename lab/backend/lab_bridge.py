@@ -7,6 +7,10 @@ import uvicorn
 from pydantic import BaseModel
 from typing import List, Optional
 import json
+import mimetypes
+
+# Fix for Windows wasm mime type
+mimetypes.add_type('application/wasm', '.wasm')
 
 app = FastAPI(title="Vectis Validation Lab Bridge")
 
