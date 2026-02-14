@@ -27,7 +27,9 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
         const uint8Array = new Uint8Array(buffer);
         
         // @ts-ignore
-        const occt = await window.occtImportJs();
+        const initFn = window.occtImportJs || window.occtimportjs;
+        if (!initFn) throw new Error("OCCT Import JS library not loaded. Check script tags.");
+        const occt = await initFn();
         const result = occt.ReadStepFile(uint8Array, null);
         
         const newMeshes: THREE.Mesh[] = [];
