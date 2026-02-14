@@ -45,11 +45,12 @@ const CADModel = ({ partName, onFaceClick }: CADModelProps) => {
           }
           
           const material = new THREE.MeshStandardMaterial({ 
-            color: 0x94a3b8,
-            metalness: 0.6,
-            roughness: 0.4,
-            transparent: true,
-            opacity: 1.0
+            color: 0x60a5fa,
+            metalness: 0.5,
+            roughness: 0.5,
+            transparent: false,
+            opacity: 1.0,
+            side: THREE.DoubleSide
           });
           
           const mesh = new THREE.Mesh(geometry, material);
