@@ -13,8 +13,11 @@ const CADViewer = ({ partName, onFaceClick }: { partName: string; onFaceClick?: 
     async function load() {
       setLoading(true);
       try {
-        const response = await fetch(`/resources/data/${partName}/mesh`);
+        const response = await fetch(`/resources/data/${encodeURIComponent(partName)}/mesh`);
         const data = await response.json();
+        if (!data || !data.vertices) {
+            throw new Error("Invalid mesh data received from server.");
+        }
         setMeshData(data);
       } catch (err) {
         console.error(err);
